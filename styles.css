@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+h1{
+    margin:0;
+    margin-left: 20px;
+    padding: 0;
+    border: 0;
+}
+
+.header{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+.middle{
+    flex: 1;
+}
+
+.part1{
+    display: flex;
+    margin: 20px;
+}
+
+.hero{
+    width: 400px;
+}
+
+h2{
+    padding: 0;
+    border: 0;
+}
+
+img{
+    width: 450px;
+    height: auto;
+}
+
+.part2{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.box-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box-text{
+    width: 100px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.part3{
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    align-self: center;
+}
+
+h4{
+    padding: 0;
+}
+.quotation{
+    align-self: flex-end;
+}
+
+.part4{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.box2{
+    display: flex;
+    height: 100px;
+    width: 800px;
+    background-color: aqua;
+}
